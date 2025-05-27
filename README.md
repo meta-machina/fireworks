@@ -1,2 +1,2 @@
-# githubio-template
-Template for github.io pages
+# webmachine template for fireworks.
+Template for webmachine pages
