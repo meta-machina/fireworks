@@ -16,7 +16,8 @@ machine:
   name: Thingking-Machine
   verb: Thingking
   instructions_file: thingking.txt
-  token: fireworks.txt
+  token: fireworks
+  server: https://localhost:443
   apiUrl: https://api.fireworks.ai/inference/v1/chat/completions
 
 app:
