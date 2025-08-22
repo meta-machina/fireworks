@@ -80,6 +80,9 @@ class MachineApp {
       } else if (key === 'model') {
         // Fireworks-specific model name adjustment from query param
         this.settings.llm[key] = `accounts/fireworks/models/${value}`;
+      } else if (['instructions_file'].includes(key)) {
+        // Change default Machina instructions file name if received.
+        this.settings.machine['instructions_file'] = value;
       } else {
         this.settings.llm[key] = value;
       }
